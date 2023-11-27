@@ -1,0 +1,12 @@
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example of using the function with three numbers
+let number1 = 5;
+let number2 = 10;
+let number3 = 7;
+
+let sum = addNumbers(addNumbers(number1, number2), number3);
+
+console.log("Sum of three numbers:", sum);
